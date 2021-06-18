@@ -3,6 +3,8 @@ import React from 'react';
 import { getContactHref, getIcon } from '../../../utils';
 import Icon from '../../Icon';
 import styles from './Contacts.module.scss';
+import Clock from 'react-live-clock'
+
 
 type Props = {
   contacts: {
@@ -26,6 +28,7 @@ const Contacts = ({ contacts }: Props) => (
         </li>
       )))}
     </ul>
+    <Clock format={'HH:mm:ss'} ticking={true} timezone={'PL/Europegatsby '} />
   </div>
 );
 

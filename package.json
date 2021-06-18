@@ -74,6 +74,7 @@
     "invariant": "^2.2.4",
     "katex": "^0.13.11",
     "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.33",
     "netlify-cms-app": "^2.15.19",
     "node-sass": "^6.0.0",
     "normalize-scss": "^7.0.1",
@@ -81,7 +82,9 @@
     "react": "^17.0.2",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-live-clock": "^5.2.0",
+    "react-moment": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
